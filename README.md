@@ -33,3 +33,9 @@ git log --oneline --pretty="%h" --no-merges  v5.6..v5.7 > tag.txt
 3. message_types.txt    -         list of warnings outputed by running ```./scripts/checkpatch.pl --list-types```
 4. genpatch.sh          -         script which runs patch analysis on non-merge commits in v5.7
 5. panalysis.sh         -         script to run checkpatch.pl on commit id or a file.
+
+### Results
+The most common warnings and their count are as below.
+1) BAD_SIGN_OFF - 3517
+2) NO_AUTHOR_SIGN_OFF - 980
+3) COMMIT_LOG_LONG_LINE - 428
