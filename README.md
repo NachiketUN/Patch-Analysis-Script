@@ -36,6 +36,6 @@ git log --oneline --pretty="%h" --no-merges  v5.6..v5.7 > tag.txt
 
 ### Results
 The most common warnings and their count are as below.
-1) BAD_SIGN_OFF - 3517
-2) NO_AUTHOR_SIGN_OFF - 980
-3) COMMIT_LOG_LONG_LINE - 428
+1) COMMIT_LOG_LONG_LINE - 112
+2) QUOTED_WHITESPACE_BEFORE_NEWLINE - 24
+3) LONG_LINE - 23
