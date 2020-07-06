@@ -7,21 +7,23 @@ for message in $messages_lines ;
 do
   arr[$message]=0
 done
-
+total_num_warnings=0
 #generates patch_file for every commit and runs checkpatch.pl
 #Aggregates errors and warnings using awk
 for line in $filelines ;
 do 
  #echo $line
- patch_file=$(git format-patch -1 --pretty=fuller $line 2>/dev/null)
+ patch_file=$(git format-patch -1 $line 2>/dev/null)
  patch_result=$(perl ./scripts/checkpatch.pl --show-types $patch_file)
  rm -rf $patch_file  #deleting the generated patch file
 
 
  errors=$(echo "$patch_result" | awk -F":" '/ERROR/{print $1}')
  warnings=$(echo "$patch_result" | awk -F":" '/WARNING/{print $2}')
-
- #Storing the warnings gathered in a hashmap
+ #num_warnings=$(echo "$patch_result" | awk '/total/{print $4}')
+ total_num_warnings=$(())
+ #echo $line $warnings
+ #Storing the warnings ingathered in a hashmap
  for warn in $warnings ;
  do
    if ! [[ -z $warn ]]; then
