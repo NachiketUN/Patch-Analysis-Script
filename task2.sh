@@ -1,4 +1,8 @@
 #!/bin/bash
+
+# Takes input of file containing commit IDs and outputs result.csv containing
+# columns of (commitID, SEVERITY, TYPE, FILENAME, LINE, EXACT ERROR) for every warning/error
+
 read -p 'Commits File: ' filename
 filelines=`cat $filename`  #reading the commit id file
 #generates patch_file for every commit and runs checkpatch.pl
