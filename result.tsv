@@ -296,7 +296,7 @@ b95e51eb9f2e	WARNING	LONG_LINE	 drivers/gpu/drm/amd/display/dc/dml/dcn21/display
 30fa60c678ea	WARNING	COMMIT_LOG_LONG_LINE			 Possible unwrapped commit description (prefer a maximum 75 chars per line)	The wlan on droid4 is flakey on some devices, and experiments have shown this
 0b80f9866e6b	WARNING	COMMIT_LOG_LONG_LINE			 Possible unwrapped commit description (prefer a maximum 75 chars per line)	active iocgs are processed by the periodic timer, which ensures that as time
 0b80f9866e6b	WARNING	WAITQUEUE_ACTIVE	 block/blk-iocost.c	1377	 waitqueue_active without comment	+if (!waitqueue_active(&iocg->waitq) && iocg->abs_vdebt &&
-0b80f9866e6b	WARNING	WAITQUEUE_ACTIVE	 block/blk-iocost.c	1383	 waitqueue_active without comment	+if (waitqueue_active(&iocg->waitq) 		 iocg->abs_vdebt) {
+0b80f9866e6b	WARNING	WAITQUEUE_ACTIVE	 block/blk-iocost.c	1383	 waitqueue_active without comment	+if (waitqueue_active(&iocg->waitq) iocg->abs_vdebt) {
 0b80f9866e6b	WARNING	WAITQUEUE_ACTIVE	 block/blk-iocost.c	1726	 waitqueue_active without comment	+if (!waitqueue_active(&iocg->waitq) && !iocg->abs_vdebt &&
 119b2b2c3e25	WARNING	BAD_SIGN_OFF			 Duplicate signature	Signed-off-by: Joerg Roedel <jroedel@suse.de>
 19c6978fba68	WARNING	BAD_SIGN_OFF			 Duplicate signature	Signed-off-by: Joerg Roedel <jroedel@suse.de>
