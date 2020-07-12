@@ -30,7 +30,7 @@ e0bbb53843b5	WARNING	TYPO_SPELLING			 'destory' may be misspelled - perhaps 'des
 9e4636545933	WARNING	UNSPECIFIED_INT	 arch/x86/kernel/fpu/xstate.c	960	 Prefer 'unsigned int' to bare use of 'unsigned'	+static void fill_gap(unsigned to, void **kbuf, unsigned *pos, unsigned *count)
 9e4636545933	WARNING	UNSPECIFIED_INT	 arch/x86/kernel/fpu/xstate.c	960	 Prefer 'unsigned int *' to bare use of 'unsigned *'	+static void fill_gap(unsigned to, void **kbuf, unsigned *pos, unsigned *count)
 9e4636545933	WARNING	UNSPECIFIED_INT	 arch/x86/kernel/fpu/xstate.c	960	 Prefer 'unsigned int *' to bare use of 'unsigned *'	+static void fill_gap(unsigned to, void **kbuf, unsigned *pos, unsigned *count)
-9e4636545933	WARNING	UNSPECIFIED_INT	 arch/x86/kernel/fpu/xstate.c	963	 Prefer 'unsigned int' to bare use of 'unsigned'	+		unsigned size = to - *pos;
+9e4636545933	WARNING	UNSPECIFIED_INT	 arch/x86/kernel/fpu/xstate.c	963	 Prefer 'unsigned int' to bare use of 'unsigned'	+unsigned size = to - *pos;
 9e4636545933	WARNING	UNSPECIFIED_INT	 arch/x86/kernel/fpu/xstate.c	974	 Prefer 'unsigned int' to bare use of 'unsigned'	+static void copy_part(unsigned offset, unsigned size, void *from,
 9e4636545933	WARNING	UNSPECIFIED_INT	 arch/x86/kernel/fpu/xstate.c	974	 Prefer 'unsigned int' to bare use of 'unsigned'	+static void copy_part(unsigned offset, unsigned size, void *from,
 9e4636545933	WARNING	UNSPECIFIED_INT	 arch/x86/kernel/fpu/xstate.c	975	 Prefer 'unsigned int *' to bare use of 'unsigned *'	+			void **kbuf, unsigned *pos, unsigned *count)
