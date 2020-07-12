@@ -1,4 +1,4 @@
-Commit ID	Severity	Type	Filename	Line	Description
+Commit ID	Severity	Type	Filename	Line	Description	Full_error
 3d77e6a8804a	ERROR	MISSING_SIGN_OFF			 Missing Signed-off-by	total: 1 errors, 1 warnings, 8 lines checked
 3d77e6a8804a	WARNING	COMMIT_MESSAGE			 Missing commit description - Add an appropriate one	ERROR:MISSING_SIGN_OFF: Missing Signed-off-by: line(s)
 bdc48fa11e46	WARNING	EMAIL_SUBJECT			 A patch subject line should describe the change not the tool that found it	Subject: [PATCH] checkpatch/coding-style: deprecate 80-column warning
