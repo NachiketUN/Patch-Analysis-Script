@@ -415,7 +415,7 @@ b2a7b0ce0773	WARNING	SPACE_BEFORE_TAB	 drivers/gpu/drm/amd/display/dc/inc/hw/mpc
 dff58530c4ca	WARNING	NO_AUTHOR_SIGN_OFF			 Missing Signed-off-by	total: 0 errors, 1 warnings, 48 lines checked
 7c4310ff5642	WARNING	TYPO_SPELLING			 'wating' may be misspelled - perhaps 'waiting'?	rpc_free_client() makes two calls which could potentially block wating
 aa72f1d20ee9	ERROR	GIT_COMMIT_ID			 Please use git commit description style 'commit <12+ chars of sha1> (<title line>)' - ie	The culprit is the commit 6138f967bccc
-3740d93e3790	WARNING	COMMIT_LOG_LONG_LINE			 Possible unwrapped commit description (prefer a maximum 75 chars per line)	kernel.core_pattern = 	/usr/lib/systemd/systemd-coredump %P %u %g %s %t %c %h %e
+3740d93e3790	WARNING	COMMIT_LOG_LONG_LINE			 Possible unwrapped commit description (prefer a maximum 75 chars per line)	kernel.core_pattern =/usr/lib/systemd/systemd-coredump %P %u %g %s %t %c %h %e
 66bb7fa81e28	WARNING	COMMIT_LOG_LONG_LINE			 Possible unwrapped commit description (prefer a maximum 75 chars per line)	CPU: 16 PID: 1290 Comm: ibmvfc_0 Tainted: G           OE  X   5.3.18-12-default
 f4dec2d61609	ERROR	MISSING_SIGN_OFF			 Missing Signed-off-by	total: 1 errors, 0 warnings, 13 lines checked
 9e68cb0359b2	WARNING	COMMIT_LOG_LONG_LINE			 Possible unwrapped commit description (prefer a maximum 75 chars per line)	value to 512, even though the maximum # of MSIx vectors supported by adapter
