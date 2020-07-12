@@ -5,4 +5,4 @@ bdc48fa11e46	WARNING	EMAIL_SUBJECT			 A patch subject line should describe the c
 bdc48fa11e46	WARNING	TYPO_SPELLING			 'withing' may be misspelled - perhaps 'within'?	Yes, staying withing 80 columns is certainly still _preferred_.  But
 d9a81a225277	WARNING	COMMIT_LOG_LONG_LINE			 Possible unwrapped commit description (prefer a maximum 75 chars per line)	Hardware name: Google Google Compute Engine/Google Compute Engine, BIOS Google 01/01/2011
 02c71b144c81	WARNING	COMMIT_LOG_LONG_LINE			 Possible unwrapped commit description (prefer a maximum 75 chars per line)	general protection fault, probably for non-canonical address 0xdffffc0000000001: 0000 [#1] PREEMPT SMP KASAN
-96d10d5b192e	WARNING	TYPO_SPELLING			 'settting' may be misspelled - perhaps 'setting'?	In commit 19e16d220f0a (""neigh: support smaller retrans_time settting"")
+96d10d5b192e	WARNING	TYPO_SPELLING			 'settting' may be misspelled - perhaps 'setting'?	In commit 19e16d220f0a (\"neigh: support smaller retrans_time settting\")
