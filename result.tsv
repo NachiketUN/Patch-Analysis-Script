@@ -303,7 +303,7 @@ b95e51eb9f2e	WARNING	LONG_LINE	 drivers/gpu/drm/amd/display/dc/dml/dcn21/display
 f44a4d7e4f1c	WARNING	BAD_SIGN_OFF			 Duplicate signature	Signed-off-by: Joerg Roedel <jroedel@suse.de>
 5b8a9a047b6c	WARNING	BAD_SIGN_OFF			 Duplicate signature	Signed-off-by: Joerg Roedel <jroedel@suse.de>
 eb791aa70b90	WARNING	BAD_SIGN_OFF			 Duplicate signature	Signed-off-by: Joerg Roedel <jroedel@suse.de>
-eb791aa70b90	WARNING	AVOID_BUG	 drivers/iommu/amd_iommu.c	1427	 Avoid crashing the kernel - try using WARN_ON & recovery code rather than BUG() or BUG_ON()	+BUG_ON(pgtable.mode < PAGE_MODE_NONE 		
+eb791aa70b90	WARNING	AVOID_BUG	 drivers/iommu/amd_iommu.c	1427	 Avoid crashing the kernel - try using WARN_ON & recovery code rather than BUG() or BUG_ON()	+BUG_ON(pgtable.mode < PAGE_MODE_NONE
 01f259f3720c	WARNING	COMMIT_LOG_LONG_LINE			 Possible unwrapped commit description (prefer a maximum 75 chars per line)	  654 	 static void pmc_core_lpm_display(struct pmc_dev *pmcdev, struct device *dev,
 ac854131d984	WARNING	COMMIT_LOG_LONG_LINE			 Possible unwrapped commit description (prefer a maximum 75 chars per line)	Reported-and-tested-by: syzbot+db339689b2101f6f6071@syzkaller.appspotmail.com
 5615e74f48dc	WARNING	BAD_SIGN_OFF			 Duplicate signature	Signed-off-by: Christian Borntraeger <borntraeger@de.ibm.com>
