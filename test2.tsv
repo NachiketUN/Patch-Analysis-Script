@@ -1,8 +1,8 @@
-Commit ID	Severity	Type	Filename	Line	Description	Full_error
-3d77e6a8804a	ERROR	MISSING_SIGN_OFF			 Missing Signed-off-by	total: 1 errors, 1 warnings, 8 lines checked
-3d77e6a8804a	WARNING	COMMIT_MESSAGE			 Missing commit description - Add an appropriate one	ERROR:MISSING_SIGN_OFF: Missing Signed-off-by: line(s)
-bdc48fa11e46	WARNING	EMAIL_SUBJECT			 A patch subject line should describe the change not the tool that found it	Subject: [PATCH] checkpatch/coding-style: deprecate 80-column warning
-bdc48fa11e46	WARNING	TYPO_SPELLING			 'withing' may be misspelled - perhaps 'within'?	Yes, staying withing 80 columns is certainly still _preferred_.  But
-d9a81a225277	WARNING	COMMIT_LOG_LONG_LINE			 Possible unwrapped commit description (prefer a maximum 75 chars per line)	Hardware name: Google Google Compute Engine/Google Compute Engine, BIOS Google 01/01/2011
-02c71b144c81	WARNING	COMMIT_LOG_LONG_LINE			 Possible unwrapped commit description (prefer a maximum 75 chars per line)	general protection fault, probably for non-canonical address 0xdffffc0000000001: 0000 [#1] PREEMPT SMP KASAN
-96d10d5b192e	WARNING	TYPO_SPELLING			 'settting' may be misspelled - perhaps 'setting'?	In commit 19e16d220f0a ("neigh: support smaller retrans_time settting"")
+Commit|ID|Severity|Type|Filename|Line|Description|Full_error
+3d77e6a8804a|ERROR|MISSING_SIGN_OFF|Missing Signed-off-by	total: 1 errors, 1 warnings, 8 lines checked
+3d77e6a8804a|WARNING|COMMIT_MESSAGE|Missing commit description - Add an appropriate one	ERROR:MISSING_SIGN_OFF: Missing Signed-off-by: line(s)
+bdc48fa11e46|WARNING|EMAIL_SUBJECT|A patch subject line should describe the change not the tool that found it	Subject: [PATCH] checkpatch/coding-style: deprecate 80-column warning
+bdc48fa11e46|WARNING|TYPO_SPELLING|'withing' may be misspelled - perhaps 'within'?	Yes, staying withing 80 columns is certainly still _preferred_.  But
+d9a81a225277|WARNING|COMMIT_LOG_LONG_LINE|Possible unwrapped commit description (prefer a maximum 75 chars per line)	Hardware name: Google Google Compute Engine/Google Compute Engine, BIOS Google 01/01/2011
+02c71b144c81|WARNING|COMMIT_LOG_LONG_LINE|Possible unwrapped commit description (prefer a maximum 75 chars per line)	general protection fault, probably for non-canonical address 0xdffffc0000000001: 0000 [#1] PREEMPT SMP KASAN
+96d10d5b192e|WARNING|TYPO_SPELLING|'settting' may be misspelled - perhaps 'setting'?	In commit 19e16d220f0a (neigh: support smaller retrans_time settting)
