@@ -111,7 +111,7 @@ b2a5212fb634	WARNING	COMMIT_LOG_LONG_LINE			 Possible unwrapped commit descripti
 0ebeea8ca8a4	ERROR	GIT_COMMIT_ID			 Please use git commit description style 'commit <12+ chars of sha1> (<title line>)' - ie	For details on them, see 6ae08ae3dea2 (bpf: Add probe_read_{user, kernel}
 15753588bcd4	WARNING	COMMIT_LOG_LONG_LINE			 Possible unwrapped commit description (prefer a maximum 75 chars per line)	the size of the kstrdup-ed buffer becomes smaller than that of the original.
 15753588bcd4	WARNING	TYPO_SPELLING			 'orignal' may be misspelled - perhaps 'original'?	by comparing the strlen() of the orignal buffer with the size variable,
-76e1ef1d81a4	ERROR	CODE_INDENT	 drivers/usb/core/hub.c	5626	 code indent should use tabs where possible	+                   	 USB_DEVICE_ID_MATCH_PRODUCT$
+76e1ef1d81a4	ERROR	CODE_INDENT	 drivers/usb/core/hub.c	5626	 code indent should use tabs where possible	+USB_DEVICE_ID_MATCH_PRODUCT$
 76e1ef1d81a4	ERROR	CODE_INDENT	 drivers/usb/core/hub.c	5627	 code indent should use tabs where possible	+                   	 USB_DEVICE_ID_MATCH_INT_CLASS,$
 76e1ef1d81a4	WARNING	COMMIT_LOG_LONG_LINE			 Possible unwrapped commit description (prefer a maximum 75 chars per line)	[1] https://lore.kernel.org/linux-renesas-soc/73933975-6F0E-40F5-9584-D2B8F615C0F3@canonical.com/
 76e1ef1d81a4	WARNING	LEADING_SPACE	 drivers/usb/core/hub.c	5625	 please, no spaces at the start of a line	+    { .match_flags = USB_DEVICE_ID_MATCH_VENDOR$
