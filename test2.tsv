@@ -4,13 +4,3 @@ bdc48fa11e46	WARNING	EMAIL_SUBJECT			 A patch subject line should describe the c
 bdc48fa11e46	WARNING	TYPO_SPELLING			 'withing' may be misspelled - perhaps 'within'?	Yes, staying withing 80 columns is certainly still _preferred_.  But
 d9a81a225277	WARNING	COMMIT_LOG_LONG_LINE			 Possible unwrapped commit description (prefer a maximum 75 chars per line)	Hardware name: Google Google Compute Engine/Google Compute Engine, BIOS Google 01/01/2011
 02c71b144c81	WARNING	COMMIT_LOG_LONG_LINE			 Possible unwrapped commit description (prefer a maximum 75 chars per line)	general protection fault, probably for non-canonical address 0xdffffc0000000001: 0000 [#1] PREEMPT SMP KASAN
-96d10d5b192e	WARNING	TYPO_SPELLING			 'settting' may be misspelled - perhaps 'setting'?	In commit 19e16d220f0a ("neigh: support smaller retrans_time settting")
-96d10d5b192e	WARNING	TYPO_SPELLING			 'settting' may be misspelled - perhaps 'setting'?	Fixes: 19e16d220f0a ("neigh: support smaller retrans_time settting")
-e3effcdfe02e	WARNING	COMMIT_LOG_LONG_LINE			 Possible unwrapped commit description (prefer a maximum 75 chars per line)	step 11 now has 'smax_value=U32_MAX' where before we pulled the s32_max_value
-e3effcdfe02e	WARNING	LONG_LINE_STRING	 tools/testing/selftests/bpf/verifier/bounds.c	264	 line length of 123 exceeds 100 columns	+	.errstr_unpriv = "R1 has unknown scalar with mixed signed bounds, pointer arithmetic with it prohibited for !root",
-e3effcdfe02e	WARNING	LONG_LINE_STRING	 tools/testing/selftests/bpf/verifier/bounds.c	302	 line length of 123 exceeds 100 columns	+	.errstr_unpriv = "R1 has unknown scalar with mixed signed bounds, pointer arithmetic with it prohibited for !root",
-18644cec714a	WARNING	COMMIT_LOG_LONG_LINE			 Possible unwrapped commit description (prefer a maximum 75 chars per line)	Otherwise prog freeing will try to put trampoline via prog->aux->trampoline,
-20be493b787c	WARNING	COMMIT_LOG_LONG_LINE			 Possible unwrapped commit description (prefer a maximum 75 chars per line)	* When updating @blocks_submitted, @block refers to the first block block not
-bf71bc16e021	WARNING	COMMIT_LOG_LONG_LINE			 Possible unwrapped commit description (prefer a maximum 75 chars per line)	 Bad Address (null pointer deref?): Code=26 (Data memory access rights trap) at addr 0000000000000000
-e9bdf7e655b9	WARNING	BAD_SIGN_OFF			 Duplicate signature	Signed-off-by: Linus Walleij <linus.walleij@linaro.org>
-2f26ed1764b4	WARNING	COMMIT_LOG_LONG_LINE			 Possible unwrapped commit description (prefer a maximum 75 chars per line)	  CPU: 0 PID: 874 Comm: syz-executor.0 Not tainted 5.7.0-rc7-syzkaller-00016-gb0c3ba31be3e #0
