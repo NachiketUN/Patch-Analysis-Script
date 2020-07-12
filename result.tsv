@@ -363,7 +363,7 @@ fb73974172ff	WARNING	SPLIT_STRING	 security/selinux/hooks.c	5875	 quoted string 
 706024a52c61	WARNING	CONSTANT_COMPARISON	 arch/x86/crypto/poly1305_glue.c	94	 Comparisons should place the constant on the right side of the test	+BUILD_BUG_ON(SZ_4K < POLY1305_BLOCK_SIZE
 eebabcb26ea1	WARNING	TYPO_SPELLING			 'Taht' may be misspelled - perhaps 'That'?	Cc: Dave Taht <dave.taht@gmail.com>
 eebabcb26ea1	WARNING	TYPO_SPELLING			 'taht' may be misspelled - perhaps 'that'?	Cc: Dave Taht <dave.taht@gmail.com>
-2465f0d5c9e3	WARNING	COMMIT_LOG_LONG_LINE			 Possible unwrapped commit description (prefer a maximum 75 chars per line) arm-linux-gnueabi-ld: drivers/hid/hid-mcp2221.o: in function `mcp2221_probe':
+2465f0d5c9e3	WARNING	COMMIT_LOG_LONG_LINE			 Possible unwrapped commit description (prefer a maximum 75 chars per line)	arm-linux-gnueabi-ld: drivers/hid/hid-mcp2221.o: in function `mcp2221_probe':
 dcce8ef8f70a	ERROR	CODE_INDENT	 drivers/hid/wacom_wac.c	1445	 code indent should use tabs where possible	+                                      expresskeys 	 (center << (nbuttons - 1)));$
 dcce8ef8f70a	WARNING	UNKNOWN_COMMIT_ID			 Unknown commit id 'cd47de45b855', maybe rebased or not pulled?	Fixes: cd47de45b855 (HID: wacom: Add 2nd gen Intuos Pro Small support)
 dcce8ef8f70a	WARNING	LEADING_SPACE	 drivers/hid/wacom_wac.c	1445	 please, no spaces at the start of a line	+                                      expresskeys 	 (center << (nbuttons - 1)));$
