@@ -366,7 +366,7 @@ eebabcb26ea1	WARNING	TYPO_SPELLING			 'taht' may be misspelled - perhaps 'that'?
 2465f0d5c9e3	WARNING	COMMIT_LOG_LONG_LINE			 Possible unwrapped commit description (prefer a maximum 75 chars per line)	arm-linux-gnueabi-ld: drivers/hid/hid-mcp2221.o: in function `mcp2221_probe':
 dcce8ef8f70a	ERROR	CODE_INDENT	 drivers/hid/wacom_wac.c	1445	 code indent should use tabs where possible	+                                      expresskeys(center << (nbuttons - 1)));$
 dcce8ef8f70a	WARNING	UNKNOWN_COMMIT_ID			 Unknown commit id 'cd47de45b855', maybe rebased or not pulled?	Fixes: cd47de45b855 (HID: wacom: Add 2nd gen Intuos Pro Small support)
-dcce8ef8f70a	WARNING	LEADING_SPACE	 drivers/hid/wacom_wac.c	1445	 please, no spaces at the start of a line	+                                      expresskeys 	 (center << (nbuttons - 1)));$
+dcce8ef8f70a	WARNING	LEADING_SPACE	 drivers/hid/wacom_wac.c	1445	 please, no spaces at the start of a line	+                                      expresskeys(center << (nbuttons - 1)));$
 dcce8ef8f70a	WARNING	NO_AUTHOR_SIGN_OFF			 Missing Signed-off-by	total: 1 errors, 3 warnings, 24 lines checked
 2e27d33d22af	WARNING	COMMIT_LOG_LONG_LINE			 Possible unwrapped commit description (prefer a maximum 75 chars per line)	No big problem as raw and gre have the same length, but could go wrong if
 e6da5df0eefc	WARNING	BAD_SIGN_OFF			 'Acked-by	Acked-By: Anton Ivanov <anton.ivanov@cambridgegreys.com>
